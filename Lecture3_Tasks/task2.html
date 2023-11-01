@@ -1,0 +1,50 @@
+<!--Flexbox and Grid Layout
+
+Task: Design a webpage layout that includes a header, main content section, sidebar, and footer. 
+Use Flexbox to arrange the header and footer horizontally, and create a grid layout for the main content and sidebar.
+Ensure that the layout is responsive and adapts to different screen sizes.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="task2.css"> <!--Link for Css file-->
+    <title>Task2</title>
+</head>
+<body>
+    <header>
+        <div class="flex-container"> <!--Top menu with flexbox-->
+            <div class="active">Home</div>
+            <div>About</div>
+            <div>Contact</div>
+            <div>Career</div>
+            <div>Projects</div>
+            <div>Gallery</div> 
+          </div>
+    </header>
+
+    <div class="sidebar"> <!--Submenu with sidebar-->
+        <div><a href="#">Articles</a></div>
+        <div><a href="#">News</a></div>
+        <div><a href="#">Our Team</a></div>
+        <div><a href="#">Awards</a></div>
+      </div>
+    <h1>Wellcome to my Website!</h1>
+
+    <div class="grid-container"><!--Main Content with Grid-->
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>  
+            <div class="item4">4</div>  
+    </div>
+    <br>
+
+    <footer> <!--Footer with flexbox-->
+        <div class="flex-container">
+            <a href="https://www.techproacademy.gr/">&copy;Copyrigth TechPro</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

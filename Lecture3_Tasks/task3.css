@@ -1,0 +1,53 @@
+.container-fluid{
+    background-color: cadetblue;
+}
+
+.card{
+    background-color:azure;
+    border-color: cadetblue;
+}
+.btn{
+    background-color: cadetblue;
+    color: azure;
+}
+.btn:hover{
+    background-color:darkslategray;
+    color: azure;
+}
+
+.form1{
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer_style{ /*Change Footer background color*/
+    background-color: cadetblue; 
+}
+
+.footer_style a { /*Change Footer words color*/
+    color: black;
+    font-size:small;
+    padding: 1px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 5px;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .navbar-collapse.show {
+        display: flex;
+    }
+}

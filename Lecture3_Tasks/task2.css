@@ -1,0 +1,54 @@
+/*Flexbox*/
+.flex-container {/*edit flexbox container*/
+    display: flex;
+    flex-direction: row;
+    background-color: #ce1eff;
+  }
+  
+  .flex-container > div { /*edit flexbox elements into the div*/
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .flex-container div.active {
+    background-color: #ce1eff;
+  }
+
+  /*Sidebar*/
+  .sidebar{
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  /*Grid*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color:#f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {/*First item want to cover first line*/
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  div > a {/*Change from Footer the color of the copyright*/
+    color:black;
+  }
+
+  @media (max-width: 768px) {/*media query for screens with max-width:768px */
+    .flex-container {
+      flex-direction:column;
+    }
+  }

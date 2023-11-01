@@ -1,0 +1,27 @@
+.topnav { /* Add a black background color to the top navigation menu */
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a { /* Style the links inside the top navigation menu */
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: width 2s;
+  }
+  
+  .topnav a:hover { /* Change the color of links and create a transition(increase the width) on hover */
+    background-color: #ddd;
+    color: black;
+    width:90px;
+    transition-timing-function: ease-in;
+
+  }
+  
+  .topnav a.active { /* Add a color to the active link */
+    background-color:blueviolet;
+    color: white;
+  }
